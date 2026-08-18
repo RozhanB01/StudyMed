@@ -1,0 +1,24 @@
+{
+  "name": "studymed",
+  "version": "1.0.0",
+  "description": "StudyMed - Smart Study Planner",
+  "main": "server/server.js",
+  "scripts": {
+    "server": "node server/server.js",
+    "client": "vite --config client/vite.config.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "study",
+    "planner",
+    "medical",
+    "student"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}
